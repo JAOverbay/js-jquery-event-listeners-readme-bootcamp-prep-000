@@ -9,10 +9,13 @@ function frameIt() {
   $('img').on("load", function() {
    $('img').addClass('tasty');
   });
+  return;
 }
 
 function submitIt() {
-  
+  $('form').on('submit', function() {
+    alert("")
+  })
 }
 
 $(document).ready(function(){
