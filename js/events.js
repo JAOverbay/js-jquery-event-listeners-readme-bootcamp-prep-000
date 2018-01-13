@@ -1,8 +1,12 @@
 function getIt() {
   $('p').on("click", function() {
     alert("Hey");
-    return
-  })
+    return;
+  });
+}
+
+function frameIt() {
+  
 }
 
 $(document).ready(function(){
